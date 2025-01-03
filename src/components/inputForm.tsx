@@ -16,7 +16,7 @@ const InputForm = (props: any) => {
         setOrderId(event.target.value);
     }
 
-    let origin = `${process.env.REACT_APP_API}/feed/order/${orderId}/${process.env.REACT_APP_OVERWRITE_ENV}`
+    let origin = `${process.env.REACT_APP_API}/api/order/${orderId}/${process.env.REACT_APP_OVERWRITE_ENV}`
     
     const storefrontCall = async() => {
         
