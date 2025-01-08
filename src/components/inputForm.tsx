@@ -25,6 +25,7 @@ const InputForm = (props: any) => {
             method: 'GET',
             headers: {
                 "Accept": 'application/json',
+                "Access-Control-Allow-Origin": '*'
             },
         }
         setAwaitingResponse(true);
